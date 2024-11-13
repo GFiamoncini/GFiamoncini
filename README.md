@@ -8,7 +8,9 @@
 #### Repositórios
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=gfiamoncini&icons=true&theme=dark&repo=GracefulShutdown)](https://github.com/GFiamoncini/GracefulShutdown.git) [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=gfiamoncini&icons=true&theme=dark&repo=RabbitMQ)](https://github.com/GFiamoncini/RabbitMQ.git) [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=gfiamoncini&icons=true&theme=dark&repo=CotacaoDolar)](https://github.com/GFiamoncini/CotacaoDolar.git)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=gfiamoncini&icons=true&theme=dark&repo=UploadFile)](https://github.com/GFiamoncini/UploadFile.git) [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=gfiamoncini&icons=true&theme=dark&repo=BuscaCep)](https://github.com/GFiamoncini/BuscaCep.git) 
-
+<p align="center">
+  <img src="https://profile-counter.glitch.me/gfiamoncini/count.svg" />
+</p>
 
 
 
