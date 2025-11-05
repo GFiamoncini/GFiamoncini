@@ -10,7 +10,7 @@
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=gfiamoncini&icons=true&theme=dark&repo=UploadFile)](https://github.com/GFiamoncini/UploadFile.git) [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=gfiamoncini&icons=true&theme=dark&repo=BuscaCep)](https://github.com/GFiamoncini/BuscaCep.git) 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=gfiamoncini&icons=true&theme=dark&repo=RateLimiter)](https://github.com/GFiamoncini/RateLimiter.git) 
 <p align="center">
-  <img src="curl https://profile-counter.glitch.me/gfiamoncini/count.svg" />
+  <img src="https://profile-counter.deno.dev/:github_pat_11A5QG35I00cdqi2sXEypu_bZxcUFsVikL6EZQmsfcJmE2oYvCm1m3L6Xd3UO06JdYIMMBY:/count.svg" alt="Key:: Visitor's Count" />
 </p>
 
 
