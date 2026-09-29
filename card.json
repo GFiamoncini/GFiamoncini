@@ -1,0 +1,32 @@
+{
+  "user": "GFiamoncini",
+  "header": "gfiamoncini@github",
+  "birthday": "",
+  "width": 58,
+  "sections": [
+    {
+      "title": "",
+      "fields": [
+        ["OS", "Fedora 44"],
+        ["Café", "∞"],
+        ["Host", "Dell-G5"],
+        ["Kernel", "Desenvolvedor"],
+        ["IDE", "RAD Studio, VS Code, Neovim"]
+      ]
+    },
+    {
+      "title": "",
+      "fields": [
+        ["Linguagens.Código", "Delphi, Golang, C"],
+        ["Hobbies", "Linux, Microcontroladores"]
+      ]
+    },
+    {
+      "title": "Contato",
+      "fields": [
+        ["Local", "Rio do Sul, SC"],
+        ["GitHub", "github.com/GFiamoncini"]
+      ]
+    }
+  ]
+}
