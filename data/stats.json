@@ -1,10 +1,102 @@
 {
-  "repos": 0,
-  "contributed": 0,
-  "stars": 0,
-  "followers": 0,
-  "commits": 0,
-  "additions": 0,
-  "deletions": 0,
-  "updated": ""
+  "repos": 19,
+  "contributed": 1,
+  "stars": 2,
+  "followers": 8,
+  "commits": 82,
+  "additions": 336598,
+  "deletions": 3246,
+  "updated": "2026-09-29T04:00:34Z",
+  "per_repo": {
+    "GFiamoncini/APIBench": {
+      "commits": 3,
+      "additions": 195,
+      "deletions": 1
+    },
+    "GFiamoncini/BuscaCep": {
+      "commits": 4,
+      "additions": 74,
+      "deletions": 2
+    },
+    "GFiamoncini/CotacaoDolar": {
+      "commits": 4,
+      "additions": 296,
+      "deletions": 80
+    },
+    "GFiamoncini/Emacs": {
+      "commits": 9,
+      "additions": 278862,
+      "deletions": 159
+    },
+    "GFiamoncini/GCloudBuscaCep": {
+      "commits": 2,
+      "additions": 215,
+      "deletions": 0
+    },
+    "GFiamoncini/GFiamoncini": {
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0
+    },
+    "GFiamoncini/GTerm": {
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0
+    },
+    "GFiamoncini/GnomeCustom": {
+      "commits": 10,
+      "additions": 45257,
+      "deletions": 1969
+    },
+    "GFiamoncini/GoLeilao": {
+      "commits": 3,
+      "additions": 1903,
+      "deletions": 1
+    },
+    "GFiamoncini/GracefulShutdown": {
+      "commits": 3,
+      "additions": 53,
+      "deletions": 1
+    },
+    "GFiamoncini/GraphQL": {
+      "commits": 4,
+      "additions": 4927,
+      "deletions": 38
+    },
+    "GFiamoncini/OpenTelemetry": {
+      "commits": 9,
+      "additions": 692,
+      "deletions": 206
+    },
+    "GFiamoncini/RabbitMQ": {
+      "commits": 4,
+      "additions": 456,
+      "deletions": 6
+    },
+    "GFiamoncini/RateLimiter": {
+      "commits": 1,
+      "additions": 469,
+      "deletions": 0
+    },
+    "GFiamoncini/SQLite": {
+      "commits": 5,
+      "additions": 393,
+      "deletions": 250
+    },
+    "GFiamoncini/StressTest": {
+      "commits": 2,
+      "additions": 196,
+      "deletions": 0
+    },
+    "GFiamoncini/UploadFile": {
+      "commits": 6,
+      "additions": 586,
+      "deletions": 30
+    },
+    "GFiamoncini/nvim": {
+      "commits": 13,
+      "additions": 2024,
+      "deletions": 503
+    }
+  }
 }
