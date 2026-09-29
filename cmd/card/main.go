@@ -34,6 +34,14 @@ type Stats struct {
 	Additions   int    `json:"additions"`
 	Deletions   int    `json:"deletions"`
 	Updated     string `json:"updated"`
+	// PerRepo guarda o último valor de cada repo, usado enquanto o GitHub ainda calcula as estatísticas dele.
+	PerRepo map[string]Contrib `json:"per_repo,omitempty"`
+}
+
+type Contrib struct {
+	Commits   int `json:"commits"`
+	Additions int `json:"additions"`
+	Deletions int `json:"deletions"`
 }
 
 type Theme struct {
@@ -53,7 +61,7 @@ func main() {
 	_ = readJSON("data/stats.json", &st)
 	{
 		tok := os.Getenv("GITHUB_TOKEN")
-		fresh, err := fetchStats(tok, cfg.User)
+		fresh, err := fetchStats(tok, cfg.User, st.PerRepo)
 		if err != nil {
 			log.Printf("aviso: stats não atualizadas, usando cache: %v", err)
 		} else {

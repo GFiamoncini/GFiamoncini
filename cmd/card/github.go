@@ -3,14 +3,18 @@ package main
 import (
 	"bytes"
 	"encoding/json"
+	"errors"
 	"fmt"
 	"io"
+	"log"
 	"net/http"
 	"strings"
 	"time"
 )
 
 var client = &http.Client{Timeout: 30 * time.Second}
+
+var errComputing = errors.New("estatísticas ainda em cálculo no GitHub")
 
 type repo struct {
 	Name   string
@@ -63,8 +67,8 @@ func rest(token, path string) (int, []byte, error) {
 	return resp.StatusCode, data, err
 }
 
-func fetchStats(token, login string) (Stats, error) {
-	var st Stats
+func fetchStats(token, login string, cache map[string]Contrib) (Stats, error) {
+	st := Stats{PerRepo: map[string]Contrib{}}
 	var repos []repo
 	var err error
 	if token != "" {
@@ -85,12 +89,17 @@ func fetchStats(token, login string) (Stats, error) {
 			continue
 		}
 		commits, add, del, err := repoContrib(token, r.Name, login)
-		if err != nil {
+		c := Contrib{commits, add, del}
+		if errors.Is(err, errComputing) {
+			c = cache[r.Name]
+			log.Printf("aviso: %s ainda em cálculo, usando cache", r.Name)
+		} else if err != nil {
 			return st, fmt.Errorf("%s: %w", r.Name, err)
 		}
-		st.Commits += commits
-		st.Additions += add
-		st.Deletions += del
+		st.PerRepo[r.Name] = c
+		st.Commits += c.Commits
+		st.Additions += c.Additions
+		st.Deletions += c.Deletions
 	}
 	return st, nil
 }
@@ -235,5 +244,5 @@ func repoContrib(token, name, login string) (commits, add, del int, err error) {
 		}
 		return commits, add, del, nil
 	}
-	return 0, 0, 0, fmt.Errorf("estatísticas ainda em cálculo no GitHub")
+	return 0, 0, 0, errComputing
 }
