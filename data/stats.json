@@ -1,12 +1,12 @@
 {
-  "repos": 19,
+  "repos": 20,
   "contributed": 1,
   "stars": 2,
   "followers": 8,
-  "commits": 101,
-  "additions": 338902,
-  "deletions": 4712,
-  "updated": "2026-10-07T12:38:44Z",
+  "commits": 102,
+  "additions": 339995,
+  "deletions": 4805,
+  "updated": "2026-10-08T12:48:48Z",
   "per_repo": {
     "GFiamoncini/APIBench": {
       "commits": 3,
@@ -37,6 +37,11 @@
       "commits": 19,
       "additions": 2304,
       "deletions": 1466
+    },
+    "GFiamoncini/GRepos": {
+      "commits": 1,
+      "additions": 1093,
+      "deletions": 93
     },
     "GFiamoncini/GTerm": {
       "commits": 0,
