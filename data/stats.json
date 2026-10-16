@@ -1,17 +1,22 @@
 {
-  "repos": 20,
+  "repos": 21,
   "contributed": 1,
   "stars": 2,
   "followers": 8,
-  "commits": 102,
-  "additions": 339995,
-  "deletions": 4805,
-  "updated": "2026-10-15T10:51:23Z",
+  "commits": 111,
+  "additions": 376883,
+  "deletions": 5189,
+  "updated": "2026-10-16T10:41:51Z",
   "per_repo": {
     "GFiamoncini/APIBench": {
       "commits": 3,
       "additions": 195,
       "deletions": 1
+    },
+    "GFiamoncini/AsciiMMO": {
+      "commits": 9,
+      "additions": 36888,
+      "deletions": 384
     },
     "GFiamoncini/BuscaCep": {
       "commits": 4,
