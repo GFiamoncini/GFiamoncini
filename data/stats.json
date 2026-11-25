@@ -3,10 +3,10 @@
   "contributed": 1,
   "stars": 2,
   "followers": 7,
-  "commits": 122,
-  "additions": 385814,
-  "deletions": 6302,
-  "updated": "2026-11-24T16:57:22Z",
+  "commits": 128,
+  "additions": 396219,
+  "deletions": 7671,
+  "updated": "2026-11-25T16:46:57Z",
   "per_repo": {
     "GFiamoncini/APIBench": {
       "commits": 3,
@@ -49,9 +49,9 @@
       "deletions": 93
     },
     "GFiamoncini/GTerm": {
-      "commits": 0,
-      "additions": 0,
-      "deletions": 0
+      "commits": 6,
+      "additions": 10405,
+      "deletions": 1369
     },
     "GFiamoncini/GnomeCustom": {
       "commits": 21,
